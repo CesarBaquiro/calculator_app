@@ -17,7 +17,7 @@ class AppState extends StatelessWidget {
           create: (_) => CalculatorBloc(),
         ),
       ],
-      child: const MyApp(),
+      child: MyApp(),
     );
   }
 }
